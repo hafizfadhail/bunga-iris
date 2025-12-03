@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import prediction as predict
+from prediction import predict
 
 st.title('Classifying Iris Flowers')
 st.markdown('Toy model to play to classify iris flowers into \
